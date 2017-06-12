@@ -9,6 +9,10 @@ The frontend uses React <http://facebook.github.io/react/> (v13.3), jQuery, and 
 The backend uses the Flask <http://flask.pocoo.org/> Python web framework and SQLite.
 
 # Building and running on Mac OS X
+`$ brew install npm`
+
+`$ npm install --save-dev babel-cli babel-preset-react`
+
 `$ brew install babel`
 
 `$ babel --presets react static/js/script.jsx -o static/js/script.js`
